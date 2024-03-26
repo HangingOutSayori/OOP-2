@@ -1,4 +1,5 @@
 ﻿#include "validate.h"
+#include<windows.h>
 // Структура для представления записи в телефонной книге
 struct Contact {
     string fullName;
