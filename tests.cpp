@@ -18,7 +18,7 @@ void testIsValidRussianPhoneNumber() {
     assert(!isValidRussianPhoneNumber("8-926-123-45-67"));// Недопустимый символ
     assert(!isValidRussianPhoneNumber("+1-123-456-7890")); // Неправильный код страны
 
-    cout << "Все тесты пройдены успешно!" << endl;
+    cout << "tests ok" << endl;
 }
 
 void testIsValidName() {
@@ -38,13 +38,10 @@ void testIsValidName() {
     assert(!isValidName("Иван123"));        // Недопустимые символы
     assert(!isValidName(""));               // Пустая строка
 
-    cout << "Все тесты пройдены успешно!" << endl;
+    cout << "tests ok" << endl;
 }
 
 int main() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-    setlocale(LC_ALL, "Rus");
     testIsValidName();
     testIsValidRussianPhoneNumber();
     return 0;
