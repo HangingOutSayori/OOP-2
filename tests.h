@@ -1,4 +1,4 @@
-#include"Validate.h"
+#include"validate.h"
 #include<cassert>
 
 using namespace std;
