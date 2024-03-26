@@ -1,4 +1,4 @@
-﻿#include "Validate.h"
+﻿#include "validate.h"
 // Структура для представления записи в телефонной книге
 struct Contact {
     string fullName;
