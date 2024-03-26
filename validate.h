@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-#include <regex> // Для использования регулярных выражений
+#include <regex> // Г„Г«Гї ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї Г°ГҐГЈГіГ«ГїГ°Г­Г»Гµ ГўГ»Г°Г Г¦ГҐГ­ГЁГ©
 
 using namespace std;
 bool isValidRussianPhoneNumber(const string& number);
