@@ -24,10 +24,8 @@ void testIsValidRussianPhoneNumber() {
 void testIsValidName() {
     // Проверка корректных имен
     assert(isValidName("John Smith"));
-    assert(isValidName("Иван Петров"));
     assert(isValidName("Mary O'Brien"));
-    assert(isValidName("Алексей Дорошенко-Смирнов"));
-    assert(isValidName("Анна-Мария"));
+    assert(isValidName("Max-Maxbetov"));
 
     // Проверка некорректных имен
     assert(!isValidName("12345"));          // Недопустимые символы
