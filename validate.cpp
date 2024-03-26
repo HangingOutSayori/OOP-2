@@ -1,4 +1,4 @@
-﻿#include "Validate.h"
+﻿#include "validate.h"
 // Функция для проверки номера телефона по российским стандартам
 bool isValidRussianPhoneNumber(const string& number) {
     // Регулярное выражение для проверки российских номеров телефонов
